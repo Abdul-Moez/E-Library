@@ -15,7 +15,7 @@ cd E-Library
 
 ## Step 2: Install required dependencies
 ```
-pip install flask flask_mysqldb flask_sqlalchemy flask_mail datetime werkzeug
+pip install -r requirements.txt
 ```
 
 ## Step 3: Start the Development Server
