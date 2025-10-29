@@ -8,8 +8,8 @@ import json
 import hashlib
 import datetime
 
-with open('config.json', 'r') as c:
-    params = json.load(c)['params']
+config_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'config.json')
+with open(config_path, 'r', encoding='utf-8') as c: params = json.load(c)['params']
 
 # print(params['name'])
 
