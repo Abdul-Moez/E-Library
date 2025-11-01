@@ -1,6 +1,9 @@
 # E-Library - Python Project
 A simple E-Library created using Python web framework Flask.
 
+*Current supported Python version for this project is* **3.13.7**.
+
+
 # Getting Started
 Follow these steps to set up the project on your local machine.
 
